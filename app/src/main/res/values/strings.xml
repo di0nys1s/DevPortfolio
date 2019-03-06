@@ -2,4 +2,9 @@
     <string name="app_name">My Portfolio</string>
     <string name="my_name">Burak Seyhan</string>
     <string name="my_profession">Android Developer</string>
+
+    <string name="about_me">Hi, my name is Burak. I am an Android Application Developer!</string>
+    <string name="skills">* Java "\n"* Android "\n"* iOS "\n"* C# "\n"*  Python</string>
+    <string name="work">* SmartEnergy "\n"* MyVeggieStore "\n"* MyGrocery "\n"*  MyPortfolio </string>
+    <string name="contact">seyhanburak9@gmail.com</string>
 </resources>
