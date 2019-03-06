@@ -1,5 +1,6 @@
   package com.di0nys1s.devportfolio;
 
+import android.graphics.Color;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -19,5 +20,8 @@ public class MainActivity extends AppCompatActivity {
 
         TabLayout tabs = findViewById(R.id.tabLayout);
         tabs.setupWithViewPager(viewPager);
+
+        // change tab text color when selected
+        tabs.setTabTextColors(Color.GRAY, Color.parseColor("white"));
     }
 }
