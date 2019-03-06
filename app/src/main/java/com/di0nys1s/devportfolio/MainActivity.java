@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     private ViewPager viewPager;
 
     @Override
-    //burak2
+    //burak23
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
