@@ -15,18 +15,27 @@
         app:cardElevation="15dp">
  
         <RelativeLayout
+            android:padding="5dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <TextView
                 android:id="@+id/devName"
-                android:text="John Seyhan"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:fontFamily="@font/alfa_slab_one"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:text="John Seyhan" />
 
             <TextView
                 android:id="@+id/devProfession"
                 android:text="Android Developer"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif"
+                android:textSize="14dp"
+                android:textColor="@android:color/white"
                 android:layout_below="@id/devName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
